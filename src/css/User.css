@@ -1,0 +1,78 @@
+.user-profile {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1c1c1c;
+  color: #f4f4f4;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.user-profile h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.user-profile p {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+}
+
+.delete-button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #b00610;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #e50914;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.modal-content input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.modal-actions button {
+  padding: 8px 12px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
