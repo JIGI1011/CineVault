@@ -39,7 +39,7 @@ function Watchlist() {
     return (
       <div className="watchlist">
         <h2>Your Watchlist</h2>
-        <div className="movie-grid">
+        <div className="movies-grid">
           {watchlist.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
           ))}
